@@ -260,7 +260,7 @@ body{
     }
 
     .card{
-        width: 420px;
+        width: 100%;
         flex-direction: column;
         flex-shrink: 1;
         box-shadow: none;

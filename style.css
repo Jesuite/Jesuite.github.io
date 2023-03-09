@@ -263,6 +263,7 @@ body{
         width: 420px;
         flex-direction: column;
         flex-shrink: 1;
+        box-shadow: none;
     }
 
     .yr{
@@ -277,9 +278,6 @@ body{
 
     .yr p{
         width: 250px;
-    }
-    .card{
-        box-shadow: none;
     }
 
     .summary{

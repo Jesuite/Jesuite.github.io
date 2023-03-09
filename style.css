@@ -297,7 +297,7 @@ body{
     }
 
     #reaction .text{
-        margin-right: 160px;
+        margin-right: 200px;
     }
 
     #memory{
@@ -306,7 +306,7 @@ body{
     }
 
     #memory .text{
-        margin-right: 160px;
+        margin-right: 200px;
     }
 
     #verbal{
@@ -315,7 +315,7 @@ body{
     }
 
     #verbal .text{
-        margin-right: 175px;
+        margin-right: 215px;
     }
 
     #visual{
@@ -324,6 +324,6 @@ body{
     }
 
     #visual .text{
-        margin-right: 175px;
+        margin-right: 215px;
     }
 }

@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
@@ -28,7 +30,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 290px;
-    padding: 5px 25px 25px 25px;
+    padding: 25px 25px 25px 25px;
     text-align: center;
     align-items: center;
     border-radius: 25px;
@@ -37,12 +39,13 @@ body{
 
 .yr h3{
     color: hsl(241, 100%, 89%);
+    margin-bottom: 10px;
 }
 
 .yr p:first-of-type{
     font-size: 20px;
     color:  hsl(0, 0%, 100%);
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 10px 0px;
 }
 
 .yr div{
@@ -57,7 +60,10 @@ body{
 
 .yr .score{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
 
 .yr .score p:first-child{
@@ -89,7 +95,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
     justify-content: space-between;
-    padding: 25px 25px 45px 25px;
+    padding: 25px 25px 25px 25px;
 }
 
 .summary .button{
